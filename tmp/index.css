@@ -124,19 +124,32 @@ form {
 .block2 {
     /*background-color: #495057;*/
     display: block;
-    border: 1px solid #495057;
+    border: 1px solid #212529;
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
 }
 
 .avatar, .button-up, .button-down {
     margin: 10px auto 20px;
     display: block;
+    border-radius: 0.25rem;
 }
-.votes-amount {
+#votes {
+    width: 36px;
+    height: 36px;
+    margin: 10px auto 20px;
+    display: block;
+}
+.votes-text {
     align-items: center !important;
     text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #495057;
     border: 1px solid #495057;
-    width: border-box;
-    height: border-box;
+    border-radius: 0.25rem;
 }
 
 .block3 {
