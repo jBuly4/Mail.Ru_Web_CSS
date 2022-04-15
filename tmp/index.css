@@ -122,7 +122,6 @@ form {
 }
 
 .block2 {
-    /*background-color: #495057;*/
     display: block;
     border: 1px solid #212529;
     background-color: #212529;
@@ -135,7 +134,7 @@ form {
     display: block;
     border-radius: 0.25rem;
 }
-#votes {
+#votes, #votes-ans {
     width: 36px;
     height: 36px;
     margin: 10px auto 20px;
@@ -152,22 +151,27 @@ form {
     border-radius: 0.25rem;
 }
 
-.block3 {
+.block3, .block5, .block4, .block7 {
     /*background-color: #495057;*/
     display: block;
-    border: 1px solid #495057;
+    background-color: #e6e6fa;
 }
 
-.block4 {
-    /*background-color: #495057;*/
-    display: inline-block;
-    border: 1px solid #495057;
+.block3, .block7{
+    border-right: 1px solid #495057 ;
 }
 
-.block5 {
-    /*background-color: #495057;*/
+
+.block6 {
+    border-top: 1px solid #495057 ;
     display: block;
-    border: 1px solid #495057;
+    background-color: #495057;
+    color: #ffffff;
+    text-align: center;
+}
+
+.block7 {
+    border-top: 1px solid #495057 ;
 }
 
 .container { width: 1700px !important; }
