@@ -123,7 +123,7 @@ form {
 
 .block2 {
     display: block;
-    border: 1px solid #212529;
+    border: 1px solid #ffffff;
     background-color: #212529;
     color: #ffffff;
     text-align: center;
@@ -155,23 +155,61 @@ form {
     /*background-color: #495057;*/
     display: block;
     background-color: #e6e6fa;
+    border: 1px solid #ffffff ;
 }
-
-.block3, .block7{
-    border-right: 1px solid #495057 ;
-}
-
 
 .block6 {
-    border-top: 1px solid #495057 ;
+    border: 1px solid #ffffff;
     display: block;
-    background-color: #495057;
+    background-color: #212529;
     color: #ffffff;
     text-align: center;
 }
 
-.block7 {
-    border-top: 1px solid #495057 ;
+.block8 {
+    display: block;
+    background-color: #bcbcbc;
+    color: #000000;
+    margin-top: 10px;
+    border: 1px solid #bcbcbc;
+}
+
+
+#submit-button {
+    color: #000000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.discard-answer {
+    color: #ffffff;
+    background-color: #495057;
+    border: 1px solid #495057;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover, #submit-button:hover, .discard-answer:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn:active, #submit-button:active {
+  background-color: #00a86b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.discard-answer:active {
+  background-color: #cc0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .container { width: 1700px !important; }
