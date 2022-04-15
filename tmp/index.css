@@ -121,4 +121,40 @@ form {
     border-color: #ffc107;
 }
 
-.container { width: 1080px !important; }
+.block2 {
+    /*background-color: #495057;*/
+    display: block;
+    border: 1px solid #495057;
+}
+
+.avatar, .button-up, .button-down {
+    margin: 10px auto 20px;
+    display: block;
+}
+.votes-amount {
+    align-items: center !important;
+    text-align: center;
+    border: 1px solid #495057;
+    width: border-box;
+    height: border-box;
+}
+
+.block3 {
+    /*background-color: #495057;*/
+    display: block;
+    border: 1px solid #495057;
+}
+
+.block4 {
+    /*background-color: #495057;*/
+    display: inline-block;
+    border: 1px solid #495057;
+}
+
+.block5 {
+    /*background-color: #495057;*/
+    display: block;
+    border: 1px solid #495057;
+}
+
+.container { width: 1700px !important; }
